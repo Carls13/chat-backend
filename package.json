@@ -1,0 +1,29 @@
+{
+  "name": "backend-node",
+  "version": "0.1.0",
+  "description": "Backend de aplicación de chat en línea",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "server"
+  ],
+  "author": "Carlos Hernández",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
